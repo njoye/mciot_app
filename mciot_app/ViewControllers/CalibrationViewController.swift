@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  CalibrationViewController.swift
 //  mciot_app
 //
 //  Created by Timo Müller on 13.05.20.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class CalibrationViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

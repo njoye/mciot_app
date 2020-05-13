@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  ConnectionViewController.swift
 //  mciot_app
 //
 //  Created by Timo Müller on 13.05.20.
@@ -8,8 +8,13 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
 
+import CoreBluetooth
+
+class ConnectionViewController: UIViewController {
+
+    @IBOutlet weak var navigationBar: UINavigationBar!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
