@@ -10,6 +10,8 @@ import UIKit
 
 class ConnectionViewController: UIViewController {
     
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -30,6 +32,10 @@ class ConnectionViewController: UIViewController {
             self.present(alert, animated: true, completion: nil)
         }else{
             // Start a spinner in the top right
+            activityIndicator.startAnimating()
+            
+            // Also start searching for a device
+            ESenseManager.shared.startSearchingForDevice()
         }
         
         

@@ -11,83 +11,60 @@
         <scene sceneID="hNz-n2-bh7">
             <objects>
                 <viewController id="9pv-A4-QxB" customClass="ConnectionViewController" customModule="Keep_Your_Head_Straight" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
+                    <view key="view" contentMode="scaleToFill" id="teQ-RJ-m16">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kMu-oX-JAn">
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KBz-9U-j70">
                                 <rect key="frame" x="0.0" y="574" width="375" height="44"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="dz8-z7-WQ1"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
-                                    <barButtonItem title="Start Searching For BLE Device" width="394" id="EGH-bg-WHk">
+                                    <barButtonItem title="Search For BLE Device" width="717" id="Qie-jc-tKB">
                                         <connections>
-                                            <action selector="searchButtonPressed:" destination="9pv-A4-QxB" id="QmR-HW-fFQ"/>
+                                            <action selector="searchButtonPressed:" destination="9pv-A4-QxB" id="mS5-Hj-P9i"/>
                                         </connections>
                                     </barButtonItem>
                                 </items>
                             </toolbar>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dh8-g8-fGY">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="c73-9e-UEd">
                                 <rect key="frame" x="0.0" y="44" width="375" height="530"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="DeviceCell" rowHeight="81" id="TCk-SJ-bWN">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="81"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="bdy-rO-PMr">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="TCk-SJ-bWN" id="SCw-8X-gam">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="81"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bdy-rO-PMr" id="alt-Ic-pgC">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="kpz-WZ-o0C">
-                                                    <rect key="frame" x="308" y="14" width="52" height="52"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DeviceName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XBe-JZ-gLI">
-                                                    <rect key="frame" x="15" y="14" width="98" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UUID: 123456789" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eBx-dW-T7h">
-                                                    <rect key="frame" x="15" y="38" width="95" height="14"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                                    <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Signal Strength: 24.577 %" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rcn-RR-ozt">
-                                                    <rect key="frame" x="15" y="52" width="136" height="14"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                                    <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="rcn-RR-ozt" firstAttribute="bottom" secondItem="kpz-WZ-o0C" secondAttribute="bottom" id="S5S-y4-Cq9"/>
-                                                <constraint firstItem="eBx-dW-T7h" firstAttribute="leading" secondItem="rcn-RR-ozt" secondAttribute="leading" id="h6V-ZN-Cuw"/>
-                                                <constraint firstItem="XBe-JZ-gLI" firstAttribute="leading" secondItem="SCw-8X-gam" secondAttribute="leadingMargin" id="kKR-JA-0NQ"/>
-                                                <constraint firstItem="XBe-JZ-gLI" firstAttribute="leading" secondItem="eBx-dW-T7h" secondAttribute="leading" id="l6w-aG-7pL"/>
-                                                <constraint firstItem="eBx-dW-T7h" firstAttribute="top" secondItem="XBe-JZ-gLI" secondAttribute="bottom" constant="3" id="ubd-FS-cKa"/>
-                                                <constraint firstItem="XBe-JZ-gLI" firstAttribute="top" secondItem="kpz-WZ-o0C" secondAttribute="top" id="z4q-2W-ZtX"/>
-                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="dh8-g8-fGY" firstAttribute="leading" secondItem="kMu-oX-JAn" secondAttribute="leading" id="7Qf-uI-0ja"/>
-                            <constraint firstItem="dh8-g8-fGY" firstAttribute="top" secondItem="PQr-Ze-W5v" secondAttribute="top" id="C3K-OD-6xE"/>
-                            <constraint firstItem="dh8-g8-fGY" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" id="R8v-gk-INU"/>
-                            <constraint firstItem="dh8-g8-fGY" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="iIt-Xu-HFv"/>
-                            <constraint firstItem="kMu-oX-JAn" firstAttribute="bottom" secondItem="PQr-Ze-W5v" secondAttribute="bottom" id="wXn-Wr-ZlJ"/>
-                            <constraint firstItem="kMu-oX-JAn" firstAttribute="top" secondItem="dh8-g8-fGY" secondAttribute="bottom" id="xQ2-pF-btU"/>
-                            <constraint firstItem="dh8-g8-fGY" firstAttribute="trailing" secondItem="kMu-oX-JAn" secondAttribute="trailing" id="xTa-XQ-thT"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
+                        <viewLayoutGuide key="safeArea" id="okq-5L-U3X"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Keep Your Head Straight" id="yck-3D-JZg"/>
+                    <navigationItem key="navigationItem" title="Keep Your Head Straight" id="yck-3D-JZg">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="5lz-Lm-rW7">
+                            <view key="customView" contentMode="scaleToFill" id="dOA-cQ-3gc">
+                                <rect key="frame" x="326" y="5.5" width="33" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="gXy-Ra-oVP">
+                                        <rect key="frame" x="6" y="6" width="20" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </activityIndicatorView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.96862745098039216" green="0.96470588235294119" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.5" height="1"/>
+                            </view>
+                            <color key="tintColor" systemColor="systemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="activityIndicator" destination="gXy-Ra-oVP" id="NWg-36-kgQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
