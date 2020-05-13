@@ -12,12 +12,20 @@ import UIKit
 import CoreBluetooth
 
 class ConnectionViewController: UIViewController {
+    
+    // Create centralManager
+    var manager: CBCentralManager!
 
-    @IBOutlet weak var navigationBar: UINavigationBar!
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        //manager = CBCentralManager(delegate: self, queue: nil)
+
+        
+        
     }
 
 
