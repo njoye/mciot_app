@@ -14,10 +14,15 @@
 		5B51A0A2246C4E1F00BA526E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B51A0A0246C4E1F00BA526E /* Main.storyboard */; };
 		5B51A0A4246C4E2000BA526E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B51A0A3246C4E2000BA526E /* Assets.xcassets */; };
 		5B51A0A7246C4E2000BA526E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B51A0A5246C4E2000BA526E /* LaunchScreen.storyboard */; };
-		5BDCAB25246C843600B54580 /* ESenseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDCAB24246C843600B54580 /* ESenseManager.swift */; };
+		5BDCAB27246C910800B54580 /* InfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDCAB26246C910800B54580 /* InfoTableViewCell.swift */; };
+		5BDCAB29246C951C00B54580 /* ESenseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDCAB28246C951C00B54580 /* ESenseManager.swift */; };
+		5BDCAB2B246C973D00B54580 /* esensemanager.old in Sources */ = {isa = PBXBuildFile; fileRef = 5BDCAB2A246C973D00B54580 /* esensemanager.old */; };
+		CE225E1EE16D61EFABEEF509 /* Pods_mciot_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10FB25E0237FCCAE0CFDF922 /* Pods_mciot_app.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10FB25E0237FCCAE0CFDF922 /* Pods_mciot_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mciot_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		358D2DCF9C8BAF29DF6FC075 /* Pods-mciot_app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mciot_app.release.xcconfig"; path = "Target Support Files/Pods-mciot_app/Pods-mciot_app.release.xcconfig"; sourceTree = "<group>"; };
 		5B51A095246C4E1F00BA526E /* Keep Your Head Straight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Keep Your Head Straight.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B51A098246C4E1F00BA526E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B51A09A246C4E1F00BA526E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,7 +32,10 @@
 		5B51A0A3246C4E2000BA526E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B51A0A6246C4E2000BA526E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B51A0A8246C4E2000BA526E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5BDCAB24246C843600B54580 /* ESenseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESenseManager.swift; sourceTree = "<group>"; };
+		5BDCAB26246C910800B54580 /* InfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTableViewCell.swift; sourceTree = "<group>"; };
+		5BDCAB28246C951C00B54580 /* ESenseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESenseManager.swift; sourceTree = "<group>"; };
+		5BDCAB2A246C973D00B54580 /* esensemanager.old */ = {isa = PBXFileReference; lastKnownFileType = text; path = esensemanager.old; sourceTree = "<group>"; };
+		D4B0ED60CA4508FD66628D4E /* Pods-mciot_app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mciot_app.debug.xcconfig"; path = "Target Support Files/Pods-mciot_app/Pods-mciot_app.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +43,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE225E1EE16D61EFABEEF509 /* Pods_mciot_app.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32852A81B5FD5BAD678853AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4B0ED60CA4508FD66628D4E /* Pods-mciot_app.debug.xcconfig */,
+				358D2DCF9C8BAF29DF6FC075 /* Pods-mciot_app.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		5B51A08C246C4E1F00BA526E = {
 			isa = PBXGroup;
 			children = (
 				5B51A097246C4E1F00BA526E /* mciot_app */,
 				5B51A096246C4E1F00BA526E /* Products */,
+				32852A81B5FD5BAD678853AB /* Pods */,
+				852F48DCD678122E8AC77A97 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,7 +88,8 @@
 				5B51A0A3246C4E2000BA526E /* Assets.xcassets */,
 				5B51A0A5246C4E2000BA526E /* LaunchScreen.storyboard */,
 				5B51A0A8246C4E2000BA526E /* Info.plist */,
-				5BDCAB24246C843600B54580 /* ESenseManager.swift */,
+				5BDCAB26246C910800B54580 /* InfoTableViewCell.swift */,
+				5BDCAB28246C951C00B54580 /* ESenseManager.swift */,
 			);
 			path = mciot_app;
 			sourceTree = "<group>";
@@ -77,8 +99,17 @@
 			children = (
 				5B51A09C246C4E1F00BA526E /* ConnectionViewController.swift */,
 				5B51A09E246C4E1F00BA526E /* CalibrationViewController.swift */,
+				5BDCAB2A246C973D00B54580 /* esensemanager.old */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		852F48DCD678122E8AC77A97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10FB25E0237FCCAE0CFDF922 /* Pods_mciot_app.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -88,9 +119,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B51A0AB246C4E2000BA526E /* Build configuration list for PBXNativeTarget "mciot_app" */;
 			buildPhases = (
+				116CCF166D00E1098E380D48 /* [CP] Check Pods Manifest.lock */,
 				5B51A091246C4E1F00BA526E /* Sources */,
 				5B51A092246C4E1F00BA526E /* Frameworks */,
 				5B51A093246C4E1F00BA526E /* Resources */,
+				EFF642761D7B3B986A30DBDA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -147,14 +180,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		116CCF166D00E1098E380D48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mciot_app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFF642761D7B3B986A30DBDA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mciot_app/Pods-mciot_app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mciot_app/Pods-mciot_app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mciot_app/Pods-mciot_app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5B51A091246C4E1F00BA526E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5B51A09F246C4E1F00BA526E /* CalibrationViewController.swift in Sources */,
-				5BDCAB25246C843600B54580 /* ESenseManager.swift in Sources */,
+				5BDCAB29246C951C00B54580 /* ESenseManager.swift in Sources */,
 				5B51A09D246C4E1F00BA526E /* ConnectionViewController.swift in Sources */,
+				5BDCAB27246C910800B54580 /* InfoTableViewCell.swift in Sources */,
+				5BDCAB2B246C973D00B54580 /* esensemanager.old in Sources */,
 				5B51A099246C4E1F00BA526E /* AppDelegate.swift in Sources */,
 				5B51A09B246C4E1F00BA526E /* SceneDelegate.swift in Sources */,
 			);
@@ -298,6 +375,7 @@
 		};
 		5B51A0AC246C4E2000BA526E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4B0ED60CA4508FD66628D4E /* Pods-mciot_app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -316,6 +394,7 @@
 		};
 		5B51A0AD246C4E2000BA526E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 358D2DCF9C8BAF29DF6FC075 /* Pods-mciot_app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

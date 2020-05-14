@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C20FF97C790835A9AC852D5353E8C3A /* Pods-mciot_app-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D68EBFE768D0DDE0274B6DCF6CAB0A /* Pods-mciot_app-dummy.m */; };
+		10C285A243948EEA0EC8FB70CE1DF212 /* ESenseConnectionListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CC7C8C9B520454E45DB6716EB76717 /* ESenseConnectionListener.swift */; };
+		198AA00CBFE070BDD3A739D91BEB8793 /* ESenseConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C990175CC58B68750245801BD3EB2891 /* ESenseConfig.swift */; };
+		318AD5E647417507CF76B130C37C1750 /* Pods-mciot_app-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 593DF877D434F1559486417AEA36985A /* Pods-mciot_app-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43673B7EBC126D5A16DB7A273DB7170A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EABF3EA22EFB94FB1AC89FD4F66DB46E /* Foundation.framework */; };
+		48255AA2AED238D6F68897F0A65018E9 /* ESense-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 907F0B61563AA67BEA3707243963BDEE /* ESense-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5367037090698BC96B24C91DD5FCA439 /* ESenseEventListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350D5CD25FCBEA910F69F2F740CA5834 /* ESenseEventListener.swift */; };
+		551224718FC3F54D6DDD11C08E18CCD0 /* ESenseEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCFD279D27B8775737838328EE7107E /* ESenseEvent.swift */; };
+		5B2095BF3EAF4D12FDF726D2E65AC821 /* SamplingStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB97A136C9950F36AFF94FD6EBC2526 /* SamplingStatus.swift */; };
+		6A86E3A39E5053100CABA3D017C7F4EF /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 875D02458EE3AEFE83356446C53C64AF /* CoreBluetooth.framework */; };
+		77764C066B1B29EA05D1BB703E950CFD /* ESenseScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B381F424B5337627BB73A2A719256975 /* ESenseScanner.swift */; };
+		A7183C32F3F96527AA7B6034EE82DDEF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F8A76502AB4455F32CF4B4ED8A4B32 /* UIKit.framework */; };
+		A72C2A24EDD2D77FF19C1B44C3904500 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EABF3EA22EFB94FB1AC89FD4F66DB46E /* Foundation.framework */; };
+		A95B529A797F8317DEE505F9E29E733E /* ESense-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CFDE61AD47847AA5687184BA77A38E /* ESense-dummy.m */; };
+		D2D9F10483EBCAF87729B12975D1A631 /* ESenseSensorListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EA927BCF6EFD29E237A887EBC9CAE7 /* ESenseSensorListener.swift */; };
+		DC98C3367E40C1AA29B5D87BB47C83B6 /* ESenseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBFE50C22E15D68BD92D6E299CB0333 /* ESenseManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF2185F863254B4323BFA07C6C0EE876 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33DAE59D646140B9A36EE1CF8C7F1B8A;
+			remoteInfo = ESense;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14CC7C8C9B520454E45DB6716EB76717 /* ESenseConnectionListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESenseConnectionListener.swift; path = ESense/Classes/ESenseConnectionListener.swift; sourceTree = "<group>"; };
+		15ACA5AC08452F4A4CE5A0CA729F7137 /* Pods-mciot_app-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-mciot_app-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1DEC27FE80E14EBCCF50F512B5FFA981 /* Pods-mciot_app.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-mciot_app.modulemap"; sourceTree = "<group>"; };
+		2EBFE50C22E15D68BD92D6E299CB0333 /* ESenseManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESenseManager.swift; path = ESense/Classes/ESenseManager.swift; sourceTree = "<group>"; };
+		2F8909752D9A9DB6F0DCD4CB5A2C12EE /* Pods-mciot_app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mciot_app.release.xcconfig"; sourceTree = "<group>"; };
+		3241681F4AE4505A3A3FFEF6892E818F /* ESense.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ESense.debug.xcconfig; sourceTree = "<group>"; };
+		350D5CD25FCBEA910F69F2F740CA5834 /* ESenseEventListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESenseEventListener.swift; path = ESense/Classes/ESenseEventListener.swift; sourceTree = "<group>"; };
+		42AD89723359E5399EEAAD094B07F990 /* ESense.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ESense.modulemap; sourceTree = "<group>"; };
+		43A2A1D4A12E5B11ED41F9C3B08CD254 /* Pods-mciot_app-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mciot_app-Info.plist"; sourceTree = "<group>"; };
+		473003E475BD5C123E10CE539ECCB654 /* ESense-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ESense-Info.plist"; sourceTree = "<group>"; };
+		593DF877D434F1559486417AEA36985A /* Pods-mciot_app-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-mciot_app-umbrella.h"; sourceTree = "<group>"; };
+		63E66EC38432293C479B2A3C7C581CE3 /* ESense.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ESense.framework; path = ESense.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F4E994BDC5D3C77FC4094AA87646C4 /* Pods-mciot_app-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mciot_app-acknowledgements.plist"; sourceTree = "<group>"; };
+		6AAD25A39A5676625181C4C6CB1371AD /* ESense.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ESense.release.xcconfig; sourceTree = "<group>"; };
+		76CFDE61AD47847AA5687184BA77A38E /* ESense-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ESense-dummy.m"; sourceTree = "<group>"; };
+		82D1235864B2A4C97906E3FE99A30B93 /* Pods-mciot_app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mciot_app.debug.xcconfig"; sourceTree = "<group>"; };
+		875D02458EE3AEFE83356446C53C64AF /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreBluetooth.framework; sourceTree = DEVELOPER_DIR; };
+		8EB97A136C9950F36AFF94FD6EBC2526 /* SamplingStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SamplingStatus.swift; path = ESense/Classes/SamplingStatus.swift; sourceTree = "<group>"; };
+		907F0B61563AA67BEA3707243963BDEE /* ESense-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ESense-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DCFD279D27B8775737838328EE7107E /* ESenseEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESenseEvent.swift; path = ESense/Classes/ESenseEvent.swift; sourceTree = "<group>"; };
+		B381F424B5337627BB73A2A719256975 /* ESenseScanner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESenseScanner.swift; path = ESense/Classes/ESenseScanner.swift; sourceTree = "<group>"; };
+		B59BD0440711F11929ED16078A7DF82E /* Pods-mciot_app-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-mciot_app-frameworks.sh"; sourceTree = "<group>"; };
+		B9F8A76502AB4455F32CF4B4ED8A4B32 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C990175CC58B68750245801BD3EB2891 /* ESenseConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESenseConfig.swift; path = ESense/Classes/ESenseConfig.swift; sourceTree = "<group>"; };
+		CDF33080EE3E4F1D948B8CAE550900F5 /* ESense-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ESense-prefix.pch"; sourceTree = "<group>"; };
+		D5EA927BCF6EFD29E237A887EBC9CAE7 /* ESenseSensorListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESenseSensorListener.swift; path = ESense/Classes/ESenseSensorListener.swift; sourceTree = "<group>"; };
+		D7D68EBFE768D0DDE0274B6DCF6CAB0A /* Pods-mciot_app-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-mciot_app-dummy.m"; sourceTree = "<group>"; };
+		EABF3EA22EFB94FB1AC89FD4F66DB46E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FB9A0013E8BDDD37482B1CACD6201E1A /* Pods_mciot_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_mciot_app.framework; path = "Pods-mciot_app.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C2BA3F434E97EB2D9BC4C953A62CCBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43673B7EBC126D5A16DB7A273DB7170A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C5012AAE8F3DB3E2DFB9662D83C882 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A86E3A39E5053100CABA3D017C7F4EF /* CoreBluetooth.framework in Frameworks */,
+				A72C2A24EDD2D77FF19C1B44C3904500 /* Foundation.framework in Frameworks */,
+				A7183C32F3F96527AA7B6034EE82DDEF /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51908CC5B20547A7054E2946C7A1E43D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E062CCB69A4AE4E20B48E7C7C71D463 /* ESense */ = {
+			isa = PBXGroup;
+			children = (
+				C990175CC58B68750245801BD3EB2891 /* ESenseConfig.swift */,
+				14CC7C8C9B520454E45DB6716EB76717 /* ESenseConnectionListener.swift */,
+				9DCFD279D27B8775737838328EE7107E /* ESenseEvent.swift */,
+				350D5CD25FCBEA910F69F2F740CA5834 /* ESenseEventListener.swift */,
+				2EBFE50C22E15D68BD92D6E299CB0333 /* ESenseManager.swift */,
+				B381F424B5337627BB73A2A719256975 /* ESenseScanner.swift */,
+				D5EA927BCF6EFD29E237A887EBC9CAE7 /* ESenseSensorListener.swift */,
+				8EB97A136C9950F36AFF94FD6EBC2526 /* SamplingStatus.swift */,
+				61B6F047B766B95F29424FBEF021B191 /* Support Files */,
+			);
+			name = ESense;
+			path = ESense;
+			sourceTree = "<group>";
+		};
+		51908CC5B20547A7054E2946C7A1E43D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				875D02458EE3AEFE83356446C53C64AF /* CoreBluetooth.framework */,
+				EABF3EA22EFB94FB1AC89FD4F66DB46E /* Foundation.framework */,
+				B9F8A76502AB4455F32CF4B4ED8A4B32 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		51EA83C77B3CFB466E7312750D906266 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E062CCB69A4AE4E20B48E7C7C71D463 /* ESense */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		61B6F047B766B95F29424FBEF021B191 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				42AD89723359E5399EEAAD094B07F990 /* ESense.modulemap */,
+				76CFDE61AD47847AA5687184BA77A38E /* ESense-dummy.m */,
+				473003E475BD5C123E10CE539ECCB654 /* ESense-Info.plist */,
+				CDF33080EE3E4F1D948B8CAE550900F5 /* ESense-prefix.pch */,
+				907F0B61563AA67BEA3707243963BDEE /* ESense-umbrella.h */,
+				3241681F4AE4505A3A3FFEF6892E818F /* ESense.debug.xcconfig */,
+				6AAD25A39A5676625181C4C6CB1371AD /* ESense.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ESense";
+			sourceTree = "<group>";
+		};
+		91CFEA5234B3C58317D3A650488F68F7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA0E9E2988380B498D973829DF47022F /* Pods-mciot_app */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9B410931F07EEE45528B7E5A00867648 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63E66EC38432293C479B2A3C7C581CE3 /* ESense.framework */,
+				FB9A0013E8BDDD37482B1CACD6201E1A /* Pods_mciot_app.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA0E9E2988380B498D973829DF47022F /* Pods-mciot_app */ = {
+			isa = PBXGroup;
+			children = (
+				1DEC27FE80E14EBCCF50F512B5FFA981 /* Pods-mciot_app.modulemap */,
+				15ACA5AC08452F4A4CE5A0CA729F7137 /* Pods-mciot_app-acknowledgements.markdown */,
+				66F4E994BDC5D3C77FC4094AA87646C4 /* Pods-mciot_app-acknowledgements.plist */,
+				D7D68EBFE768D0DDE0274B6DCF6CAB0A /* Pods-mciot_app-dummy.m */,
+				B59BD0440711F11929ED16078A7DF82E /* Pods-mciot_app-frameworks.sh */,
+				43A2A1D4A12E5B11ED41F9C3B08CD254 /* Pods-mciot_app-Info.plist */,
+				593DF877D434F1559486417AEA36985A /* Pods-mciot_app-umbrella.h */,
+				82D1235864B2A4C97906E3FE99A30B93 /* Pods-mciot_app.debug.xcconfig */,
+				2F8909752D9A9DB6F0DCD4CB5A2C12EE /* Pods-mciot_app.release.xcconfig */,
+			);
+			name = "Pods-mciot_app";
+			path = "Target Support Files/Pods-mciot_app";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				51EA83C77B3CFB466E7312750D906266 /* Pods */,
+				9B410931F07EEE45528B7E5A00867648 /* Products */,
+				91CFEA5234B3C58317D3A650488F68F7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4B5F3FA2ED7984934E5EA1F450EA251E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				318AD5E647417507CF76B130C37C1750 /* Pods-mciot_app-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED47E54FD21433F9034402696E278A29 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48255AA2AED238D6F68897F0A65018E9 /* ESense-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		33DAE59D646140B9A36EE1CF8C7F1B8A /* ESense */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEEF93966A44CCE7FC0EF410F13CD613 /* Build configuration list for PBXNativeTarget "ESense" */;
+			buildPhases = (
+				ED47E54FD21433F9034402696E278A29 /* Headers */,
+				EFF3CD246C2060D31E9BEAA1F89564FF /* Sources */,
+				E7C5012AAE8F3DB3E2DFB9662D83C882 /* Frameworks */,
+				57684FE3783D11DFFECF114EA2E66689 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ESense;
+			productName = ESense;
+			productReference = 63E66EC38432293C479B2A3C7C581CE3 /* ESense.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		58CFFE57993F9AF9DA7498BFC44CD0D4 /* Pods-mciot_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3DD8CB4727E1AB47365B6A372911ECF /* Build configuration list for PBXNativeTarget "Pods-mciot_app" */;
+			buildPhases = (
+				4B5F3FA2ED7984934E5EA1F450EA251E /* Headers */,
+				F255C87BE2FB1757F58DF6FED6C127CA /* Sources */,
+				8C2BA3F434E97EB2D9BC4C953A62CCBB /* Frameworks */,
+				3A61AB619491B4E0D7A01FD016BA1E19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D4BDD9CEFE8546F845F188DBBC8D231 /* PBXTargetDependency */,
+			);
+			name = "Pods-mciot_app";
+			productName = "Pods-mciot_app";
+			productReference = FB9A0013E8BDDD37482B1CACD6201E1A /* Pods_mciot_app.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9B410931F07EEE45528B7E5A00867648 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33DAE59D646140B9A36EE1CF8C7F1B8A /* ESense */,
+				58CFFE57993F9AF9DA7498BFC44CD0D4 /* Pods-mciot_app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A61AB619491B4E0D7A01FD016BA1E19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57684FE3783D11DFFECF114EA2E66689 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFF3CD246C2060D31E9BEAA1F89564FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95B529A797F8317DEE505F9E29E733E /* ESense-dummy.m in Sources */,
+				198AA00CBFE070BDD3A739D91BEB8793 /* ESenseConfig.swift in Sources */,
+				10C285A243948EEA0EC8FB70CE1DF212 /* ESenseConnectionListener.swift in Sources */,
+				551224718FC3F54D6DDD11C08E18CCD0 /* ESenseEvent.swift in Sources */,
+				5367037090698BC96B24C91DD5FCA439 /* ESenseEventListener.swift in Sources */,
+				DC98C3367E40C1AA29B5D87BB47C83B6 /* ESenseManager.swift in Sources */,
+				77764C066B1B29EA05D1BB703E950CFD /* ESenseScanner.swift in Sources */,
+				D2D9F10483EBCAF87729B12975D1A631 /* ESenseSensorListener.swift in Sources */,
+				5B2095BF3EAF4D12FDF726D2E65AC821 /* SamplingStatus.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F255C87BE2FB1757F58DF6FED6C127CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C20FF97C790835A9AC852D5353E8C3A /* Pods-mciot_app-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D4BDD9CEFE8546F845F188DBBC8D231 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ESense;
+			target = 33DAE59D646140B9A36EE1CF8C7F1B8A /* ESense */;
+			targetProxy = DF2185F863254B4323BFA07C6C0EE876 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		98FD725174BCC7AA856026C529358238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AAD25A39A5676625181C4C6CB1371AD /* ESense.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ESense/ESense-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ESense/ESense-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ESense/ESense.modulemap";
+				PRODUCT_MODULE_NAME = ESense;
+				PRODUCT_NAME = ESense;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A9BE4F4A57DA777C35F598C93EAA5687 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82D1235864B2A4C97906E3FE99A30B93 /* Pods-mciot_app.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-mciot_app/Pods-mciot_app-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-mciot_app/Pods-mciot_app.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E45E67AF70570B7594EAEB6B3B8029ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F8909752D9A9DB6F0DCD4CB5A2C12EE /* Pods-mciot_app.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-mciot_app/Pods-mciot_app-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-mciot_app/Pods-mciot_app.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F66F8A07C0D0FB1A71DB9DDCD024E465 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3241681F4AE4505A3A3FFEF6892E818F /* ESense.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ESense/ESense-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ESense/ESense-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ESense/ESense.modulemap";
+				PRODUCT_MODULE_NAME = ESense;
+				PRODUCT_NAME = ESense;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3DD8CB4727E1AB47365B6A372911ECF /* Build configuration list for PBXNativeTarget "Pods-mciot_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9BE4F4A57DA777C35F598C93EAA5687 /* Debug */,
+				E45E67AF70570B7594EAEB6B3B8029ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEEF93966A44CCE7FC0EF410F13CD613 /* Build configuration list for PBXNativeTarget "ESense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F66F8A07C0D0FB1A71DB9DDCD024E465 /* Debug */,
+				98FD725174BCC7AA856026C529358238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
