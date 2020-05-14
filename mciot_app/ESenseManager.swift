@@ -36,13 +36,13 @@ class MyESenseManager: NSObject, CBCentralManagerDelegate {
         centralManager = CBCentralManager(delegate: self, queue: nil)
         
         // Initialize the ESenseManager
-        esenseManager = ESenseManager(deviceName: "eSense-1765", listener: self)
+        esenseManager = ESenseManager(deviceName: "eSense-0219", listener: self)
         
         // Use this class as sensor listener
         esenseManager?.registerSensorListener(self, hz: 10)
         
         // Use this class as event listener
-        
+        esenseManager?.registerEventListener(self)
         
         // Initialize to false
         isBluetoothOn = (centralManager.state == .poweredOn)
@@ -71,10 +71,7 @@ class MyESenseManager: NSObject, CBCentralManagerDelegate {
      */
     func startSearchingForDevice(){
         print("[INFO] Starting to search & connect to BLE Device")
-        print("Connecting: \(esenseManager?.connect(timeout: 10))")
-        
-        //TODO: add services to look for :)
-        //centralManager.scanForPeripherals(withServices: [], options: [CBCentralManagerScanOptionAllowDuplicatesKey: true])
+        print("Connecting: \(esenseManager?.connect(timeout: 20))")
     }
 }
 
@@ -83,19 +80,23 @@ class MyESenseManager: NSObject, CBCentralManagerDelegate {
  */
 extension MyESenseManager:ESenseConnectionListener{
     func onDeviceFound(_ manager: ESenseManager) {
-        print("Found device")
+        NotificationCenter.default.post(Notification(name: Notification.Name("FoundDevice")))
+        print("[INFO] Found Device")
     }
     
     func onDeviceNotFound(_ manager: ESenseManager) {
-        print("Not found device")
+        NotificationCenter.default.post(Notification(name: Notification.Name("DidntFindDevice")))
+        print("[INFO] Did not find device")
     }
     
     func onConnected(_ manager: ESenseManager) {
-        print("connected")
+        NotificationCenter.default.post(Notification(name: Notification.Name("Connected")))
+        print("[INFO] Connected to device")
     }
     
     func onDisconnected(_ manager: ESenseManager) {
-        print("disconnected")
+        NotificationCenter.default.post(Notification(name: Notification.Name("Disconnected")))
+        print("[INFO] Disconnected from device")
     }
 }
 

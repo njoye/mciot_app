@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8nL-W8-D23">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -8,171 +8,106 @@
     </dependencies>
     <scenes>
         <!--Keep Your Head Straight-->
-        <scene sceneID="hNz-n2-bh7">
-            <objects>
-                <viewController id="9pv-A4-QxB" customClass="ConnectionViewController" customModule="Keep_Your_Head_Straight" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="teQ-RJ-m16">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KBz-9U-j70">
-                                <rect key="frame" x="0.0" y="574" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <items>
-                                    <barButtonItem title="Search For BLE Device" width="717" id="Qie-jc-tKB">
-                                        <connections>
-                                            <action selector="searchButtonPressed:" destination="9pv-A4-QxB" id="mS5-Hj-P9i"/>
-                                        </connections>
-                                    </barButtonItem>
-                                </items>
-                            </toolbar>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="c73-9e-UEd">
-                                <rect key="frame" x="0.0" y="44" width="375" height="530"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="bdy-rO-PMr">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="43.5"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bdy-rO-PMr" id="alt-Ic-pgC">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </prototypes>
-                            </tableView>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="okq-5L-U3X"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Keep Your Head Straight" id="yck-3D-JZg">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="5lz-Lm-rW7">
-                            <view key="customView" contentMode="scaleToFill" id="dOA-cQ-3gc">
-                                <rect key="frame" x="326" y="5.5" width="33" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="gXy-Ra-oVP">
-                                        <rect key="frame" x="6" y="6" width="20" height="20"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </activityIndicatorView>
-                                </subviews>
-                                <color key="backgroundColor" red="0.96862745098039216" green="0.96470588235294119" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <rect key="contentStretch" x="0.0" y="0.0" width="0.5" height="1"/>
-                            </view>
-                            <color key="tintColor" systemColor="systemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        </barButtonItem>
-                    </navigationItem>
-                    <connections>
-                        <outlet property="activityIndicator" destination="gXy-Ra-oVP" id="NWg-36-kgQ"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1708" y="-368.36581709145429"/>
-        </scene>
-        <!--Keep Your Head Straight-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
                 <viewController id="8rJ-Kc-sve" customClass="CalibrationViewController" customModule="Keep_Your_Head_Straight" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
+                    <view key="view" contentMode="scaleToFill" id="kcY-vn-Nra">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="VjS-eA-gSx">
-                                <rect key="frame" x="0.0" y="44" width="375" height="530"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="694-gD-pPo">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <items>
+                                    <barButtonItem title="Connect" id="zXH-C9-OIi">
+                                        <connections>
+                                            <action selector="connectButtonPressed:" destination="8rJ-Kc-sve" id="jUA-ZP-AbJ"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="448" style="plain" systemItem="fixedSpace" id="coS-JE-KLF"/>
+                                    <barButtonItem enabled="NO" title="Calibrate" id="iIX-dF-Jtd"/>
+                                </items>
+                            </toolbar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="c5C-Y7-pFE">
+                                <rect key="frame" x="0.0" y="44" width="375" height="363"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="363" id="Ha8-IA-wvB"/>
+                                </constraints>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="InfoCell" id="jNp-bE-SNc" customClass="InfoTableViewCell" customModule="Keep_Your_Head_Straight" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="43.5"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="InfoCell" id="oMF-6W-3oc" customClass="InfoTableViewCell" customModule="Keep_Your_Head_Straight" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jNp-bE-SNc" id="0h0-ue-dVJ">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="oMF-6W-3oc" id="RuK-If-E5X">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Status" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BWe-Tq-ZOh">
-                                                    <rect key="frame" x="15" y="11" width="237" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Je5-wf-hUU">
+                                                    <rect key="frame" x="15" y="11" width="148" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Disconnected" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="srV-BK-LL4">
-                                                    <rect key="frame" x="254" y="12" width="106" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BAP-Hq-Be4">
+                                                    <rect key="frame" x="250" y="11" width="110" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="110" id="ImP-Bd-pIo"/>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="BAP-Hq-Be4" firstAttribute="trailing" secondItem="RuK-If-E5X" secondAttribute="trailingMargin" id="ASR-Y1-ZmG"/>
+                                                <constraint firstItem="Je5-wf-hUU" firstAttribute="leading" secondItem="RuK-If-E5X" secondAttribute="leadingMargin" id="Egy-uO-T15"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="Je5-wf-hUU" secondAttribute="bottom" constant="0.5" id="VSG-Cl-jnJ"/>
+                                                <constraint firstItem="Je5-wf-hUU" firstAttribute="baseline" secondItem="BAP-Hq-Be4" secondAttribute="baseline" id="nJo-Zr-TN3"/>
+                                                <constraint firstItem="Je5-wf-hUU" firstAttribute="firstBaseline" secondItem="BAP-Hq-Be4" secondAttribute="firstBaseline" id="ouH-wf-fQB"/>
+                                                <constraint firstItem="Je5-wf-hUU" firstAttribute="top" secondItem="RuK-If-E5X" secondAttribute="topMargin" id="xR3-io-dIY"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="nameLabel" destination="BWe-Tq-ZOh" id="2tv-co-mb7"/>
-                                            <outlet property="valueLabel" destination="srV-BK-LL4" id="d6a-PJ-wKj"/>
+                                            <outlet property="nameLabel" destination="Je5-wf-hUU" id="2yK-Tu-wgT"/>
+                                            <outlet property="valueLabel" destination="BAP-Hq-Be4" id="aYV-82-gbF"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <navigationBar contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Z70-HZ-Raj">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </navigationBar>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ddu-kF-6th">
-                                <rect key="frame" x="0.0" y="574" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <items>
-                                    <barButtonItem title="Calibrate Headphones" width="481" id="FfJ-Lg-MHa"/>
-                                </items>
-                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
+                        <constraints>
+                            <constraint firstItem="c5C-Y7-pFE" firstAttribute="trailing" secondItem="694-gD-pPo" secondAttribute="trailing" id="5wg-f1-Zqf"/>
+                            <constraint firstAttribute="trailing" secondItem="c5C-Y7-pFE" secondAttribute="trailing" id="OcS-ia-6oC"/>
+                            <constraint firstItem="c5C-Y7-pFE" firstAttribute="leading" secondItem="694-gD-pPo" secondAttribute="leading" id="blp-LQ-WMO"/>
+                            <constraint firstItem="694-gD-pPo" firstAttribute="bottom" secondItem="5dM-cm-A68" secondAttribute="bottom" id="dhR-4M-fee"/>
+                            <constraint firstItem="c5C-Y7-pFE" firstAttribute="leading" secondItem="kcY-vn-Nra" secondAttribute="leading" id="h5O-jc-PFG"/>
+                            <constraint firstItem="c5C-Y7-pFE" firstAttribute="top" secondItem="5dM-cm-A68" secondAttribute="top" id="yLA-yI-U93"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="5dM-cm-A68"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Keep Your Head Straight" id="K0a-pD-ZWa"/>
+                    <navigationItem key="navigationItem" title="Keep Your Head Straight" id="K0a-pD-ZWa">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="lMK-0X-Oxc">
+                            <view key="customView" contentMode="scaleToFill" id="EoQ-T8-hmL">
+                                <rect key="frame" x="303" y="5.5" width="56" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="medium" id="0O0-6x-JAr">
+                                        <rect key="frame" x="-146" y="-318" width="375" height="667"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </activityIndicatorView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.96862745098039216" green="0.96470588235294119" blue="0.96470588235294119" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
-                        <outlet property="tableView" destination="VjS-eA-gSx" id="UJt-6k-jio"/>
+                        <outlet property="activityIndicator" destination="0O0-6x-JAr" id="D3y-19-eWs"/>
+                        <outlet property="tableView" destination="c5C-Y7-pFE" id="5Ad-Z8-ACx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1688.8" y="359.37031484257875"/>
-        </scene>
-        <!--Tab Bar Controller-->
-        <scene sceneID="yl2-sM-qoP">
-            <objects>
-                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
-                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                    </tabBar>
-                    <connections>
-                        <segue destination="HW7-rI-wSa" kind="relationship" relationship="viewControllers" id="D6J-Es-idU"/>
-                        <segue destination="8nL-W8-D23" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
-                    </connections>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="0.0" y="0.0"/>
-        </scene>
-        <!--Connection-->
-        <scene sceneID="fP6-Tc-Y4l">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="HW7-rI-wSa" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Connection" image="headphones" catalog="system" selectedImage="headphones" id="acW-dT-cKf"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ZF2-fe-Ad9">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="rootViewController" id="R5k-6T-ClG"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gDR-pz-ZQR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="768.79999999999995" y="-368.36581709145429"/>
+            <point key="canvasLocation" x="1541.5999999999999" y="-0.44977511244377816"/>
         </scene>
         <!--Calibration-->
         <scene sceneID="vke-DW-0sP">
@@ -191,11 +126,10 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GP2-pI-ucp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="749.60000000000002" y="359.37031484257875"/>
+            <point key="canvasLocation" x="788" y="0.0"/>
         </scene>
     </scenes>
     <resources>
         <image name="gear" catalog="system" width="128" height="119"/>
-        <image name="headphones" catalog="system" width="128" height="107"/>
     </resources>
 </document>
