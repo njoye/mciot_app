@@ -3,38 +3,36 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B3D6CAB246E886600C6A755 /* warning_fx.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5B3D6CAA246E886600C6A755 /* warning_fx.mp3 */; };
 		5B51A099246C4E1F00BA526E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B51A098246C4E1F00BA526E /* AppDelegate.swift */; };
 		5B51A09B246C4E1F00BA526E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B51A09A246C4E1F00BA526E /* SceneDelegate.swift */; };
-		5B51A09D246C4E1F00BA526E /* ConnectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B51A09C246C4E1F00BA526E /* ConnectionViewController.swift */; };
 		5B51A09F246C4E1F00BA526E /* CalibrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B51A09E246C4E1F00BA526E /* CalibrationViewController.swift */; };
 		5B51A0A2246C4E1F00BA526E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B51A0A0246C4E1F00BA526E /* Main.storyboard */; };
 		5B51A0A4246C4E2000BA526E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B51A0A3246C4E2000BA526E /* Assets.xcassets */; };
 		5B51A0A7246C4E2000BA526E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B51A0A5246C4E2000BA526E /* LaunchScreen.storyboard */; };
 		5BDCAB27246C910800B54580 /* InfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDCAB26246C910800B54580 /* InfoTableViewCell.swift */; };
-		5BDCAB29246C951C00B54580 /* ESenseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDCAB28246C951C00B54580 /* ESenseManager.swift */; };
-		5BDCAB2B246C973D00B54580 /* esensemanager.old in Sources */ = {isa = PBXBuildFile; fileRef = 5BDCAB2A246C973D00B54580 /* esensemanager.old */; };
+		5BDCAB29246C951C00B54580 /* MyESenseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDCAB28246C951C00B54580 /* MyESenseManager.swift */; };
 		CE225E1EE16D61EFABEEF509 /* Pods_mciot_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10FB25E0237FCCAE0CFDF922 /* Pods_mciot_app.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		10FB25E0237FCCAE0CFDF922 /* Pods_mciot_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mciot_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		358D2DCF9C8BAF29DF6FC075 /* Pods-mciot_app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mciot_app.release.xcconfig"; path = "Target Support Files/Pods-mciot_app/Pods-mciot_app.release.xcconfig"; sourceTree = "<group>"; };
+		5B3D6CAA246E886600C6A755 /* warning_fx.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = warning_fx.mp3; sourceTree = "<group>"; };
 		5B51A095246C4E1F00BA526E /* Keep Your Head Straight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Keep Your Head Straight.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B51A098246C4E1F00BA526E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B51A09A246C4E1F00BA526E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5B51A09C246C4E1F00BA526E /* ConnectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionViewController.swift; sourceTree = "<group>"; };
 		5B51A09E246C4E1F00BA526E /* CalibrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalibrationViewController.swift; sourceTree = "<group>"; };
 		5B51A0A1246C4E1F00BA526E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B51A0A3246C4E2000BA526E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B51A0A6246C4E2000BA526E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B51A0A8246C4E2000BA526E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BDCAB26246C910800B54580 /* InfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTableViewCell.swift; sourceTree = "<group>"; };
-		5BDCAB28246C951C00B54580 /* ESenseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESenseManager.swift; sourceTree = "<group>"; };
-		5BDCAB2A246C973D00B54580 /* esensemanager.old */ = {isa = PBXFileReference; lastKnownFileType = text; path = esensemanager.old; sourceTree = "<group>"; };
+		5BDCAB28246C951C00B54580 /* MyESenseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyESenseManager.swift; sourceTree = "<group>"; };
 		D4B0ED60CA4508FD66628D4E /* Pods-mciot_app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mciot_app.debug.xcconfig"; path = "Target Support Files/Pods-mciot_app/Pods-mciot_app.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,7 +54,6 @@
 				D4B0ED60CA4508FD66628D4E /* Pods-mciot_app.debug.xcconfig */,
 				358D2DCF9C8BAF29DF6FC075 /* Pods-mciot_app.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -81,6 +78,7 @@
 		5B51A097246C4E1F00BA526E /* mciot_app */ = {
 			isa = PBXGroup;
 			children = (
+				5B3D6CAA246E886600C6A755 /* warning_fx.mp3 */,
 				5B51A0AE246C565E00BA526E /* ViewControllers */,
 				5B51A098246C4E1F00BA526E /* AppDelegate.swift */,
 				5B51A09A246C4E1F00BA526E /* SceneDelegate.swift */,
@@ -89,7 +87,7 @@
 				5B51A0A5246C4E2000BA526E /* LaunchScreen.storyboard */,
 				5B51A0A8246C4E2000BA526E /* Info.plist */,
 				5BDCAB26246C910800B54580 /* InfoTableViewCell.swift */,
-				5BDCAB28246C951C00B54580 /* ESenseManager.swift */,
+				5BDCAB28246C951C00B54580 /* MyESenseManager.swift */,
 			);
 			path = mciot_app;
 			sourceTree = "<group>";
@@ -97,9 +95,7 @@
 		5B51A0AE246C565E00BA526E /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				5B51A09C246C4E1F00BA526E /* ConnectionViewController.swift */,
 				5B51A09E246C4E1F00BA526E /* CalibrationViewController.swift */,
-				5BDCAB2A246C973D00B54580 /* esensemanager.old */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -175,6 +171,7 @@
 				5B51A0A7246C4E2000BA526E /* LaunchScreen.storyboard in Resources */,
 				5B51A0A4246C4E2000BA526E /* Assets.xcassets in Resources */,
 				5B51A0A2246C4E1F00BA526E /* Main.storyboard in Resources */,
+				5B3D6CAB246E886600C6A755 /* warning_fx.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,10 +225,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B51A09F246C4E1F00BA526E /* CalibrationViewController.swift in Sources */,
-				5BDCAB29246C951C00B54580 /* ESenseManager.swift in Sources */,
-				5B51A09D246C4E1F00BA526E /* ConnectionViewController.swift in Sources */,
+				5BDCAB29246C951C00B54580 /* MyESenseManager.swift in Sources */,
 				5BDCAB27246C910800B54580 /* InfoTableViewCell.swift in Sources */,
-				5BDCAB2B246C973D00B54580 /* esensemanager.old in Sources */,
 				5B51A099246C4E1F00BA526E /* AppDelegate.swift in Sources */,
 				5B51A09B246C4E1F00BA526E /* SceneDelegate.swift in Sources */,
 			);

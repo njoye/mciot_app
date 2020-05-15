@@ -372,17 +372,20 @@ public class ESenseManager: NSObject{
      *         <code>false</code> otherwise
      */
     public func isConnected() -> Bool {
+        //print("DEBUG")
+        //print("mDevice: \(mDevice)")
+        
         
         guard let device = mDevice else {
             return false
         }
         
         switch device.state {
-        case .connected:
-            return true
-        default:
-            return false
-        }
+            case .connected:
+                return true
+            default:
+                return false
+            }
     }
     
     /**
